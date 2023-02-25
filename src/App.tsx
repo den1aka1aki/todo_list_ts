@@ -6,9 +6,9 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <Todo_list/>
-      <Todo_list/>
-      <Todo_list/>
+      <Todo_list title="What to learn"/>
+      <Todo_list title="Movies"/>
+      <Todo_list title='Songs'/>
     </div>
   );
 }
